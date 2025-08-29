@@ -1,5 +1,38 @@
+body {
+    background-color: #ffeb3b; /* Bright yellow */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+    text-align: center;
+    color: #333;
+}
+
+h1, h2 {
+    color: #f44336; /* Red for excitement */
+    animation: bounce 2s infinite; /* Bounce effect */
+}
+
+button {
+    background-color: #4caf50; /* Green buttons */
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2196f3; /* Blue on hover */
+}
+
 iframe {
     margin: 20px auto;
     display: block;
-    border: 2px solid #2196f3; /* Fun border */
+    border: 2px solid #2196f3;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
 }
